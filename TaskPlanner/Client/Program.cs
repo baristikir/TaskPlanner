@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Syncfusion.Blazor;
+using TaskPlanner.Shared;
 
 namespace TaskPlanner.Client
 {
@@ -18,7 +20,8 @@ namespace TaskPlanner.Client
             builder.RootComponents.Add<App>("app");
 
             builder.Services.AddTransient(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
-
+            builder.Services.AddSyncfusionBlazor();
+            builder.Services.AddScoped<SampleService>();
             await builder.Build().RunAsync();
         }
     }

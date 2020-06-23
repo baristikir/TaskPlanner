@@ -6,6 +6,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Linq;
+using Syncfusion.Blazor;
+using TaskPlanner.Shared;
 
 namespace TaskPlanner.Server
 {
@@ -25,11 +27,15 @@ namespace TaskPlanner.Server
 
             services.AddControllersWithViews();
             services.AddRazorPages();
+            services.AddSyncfusionBlazor();
+            services.AddScoped<SampleService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("MjczODAxQDMxMzgyZTMxMmUzMFhIVktBd3B2Tmp1R2ZJYWVkdy9sVVM2YnZsTC9HZXJuVnYrTGYxcGJtTU09");
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

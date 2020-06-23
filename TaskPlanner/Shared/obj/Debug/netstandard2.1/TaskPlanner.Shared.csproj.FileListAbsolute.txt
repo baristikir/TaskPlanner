@@ -1,0 +1,9 @@
+C:\Users\Shadow\source\repos\TaskPlanner\TaskPlanner\Shared\bin\Debug\netstandard2.1\TaskPlanner.Shared.deps.json
+C:\Users\Shadow\source\repos\TaskPlanner\TaskPlanner\Shared\bin\Debug\netstandard2.1\TaskPlanner.Shared.dll
+C:\Users\Shadow\source\repos\TaskPlanner\TaskPlanner\Shared\bin\Debug\netstandard2.1\TaskPlanner.Shared.pdb
+C:\Users\Shadow\source\repos\TaskPlanner\TaskPlanner\Shared\obj\Debug\netstandard2.1\TaskPlanner.Shared.csprojAssemblyReference.cache
+C:\Users\Shadow\source\repos\TaskPlanner\TaskPlanner\Shared\obj\Debug\netstandard2.1\TaskPlanner.Shared.AssemblyInfoInputs.cache
+C:\Users\Shadow\source\repos\TaskPlanner\TaskPlanner\Shared\obj\Debug\netstandard2.1\TaskPlanner.Shared.AssemblyInfo.cs
+C:\Users\Shadow\source\repos\TaskPlanner\TaskPlanner\Shared\obj\Debug\netstandard2.1\TaskPlanner.Shared.dll
+C:\Users\Shadow\source\repos\TaskPlanner\TaskPlanner\Shared\obj\Debug\netstandard2.1\TaskPlanner.Shared.pdb
+C:\Users\Shadow\source\repos\TaskPlanner\TaskPlanner\Shared\obj\Debug\netstandard2.1\TaskPlanner.Shared.csproj.CoreCompileInputs.cache

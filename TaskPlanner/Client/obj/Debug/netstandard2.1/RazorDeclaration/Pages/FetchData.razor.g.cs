@@ -77,6 +77,20 @@ using TaskPlanner.Client.Shared;
 #line hidden
 #nullable disable
 #nullable restore
+#line 10 "C:\Users\Shadow\source\repos\TaskPlanner\TaskPlanner\Client\_Imports.razor"
+using Syncfusion.Blazor;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 11 "C:\Users\Shadow\source\repos\TaskPlanner\TaskPlanner\Client\_Imports.razor"
+using Syncfusion.Blazor.Calendars;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 2 "C:\Users\Shadow\source\repos\TaskPlanner\TaskPlanner\Client\Pages\FetchData.razor"
 using TaskPlanner.Shared;
 
